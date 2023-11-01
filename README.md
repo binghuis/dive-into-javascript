@@ -1,12 +1,10 @@
-# 写给 JavaScript 开发者的进阶课
+# 结合场景深入了解 JavaScript
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-F37626)
 ![](https://shield.deno.dev/deno/^1.3.7)
 
-
 ## notebook 启动
-
 
 1. 安装 `deno jupyter`
 
