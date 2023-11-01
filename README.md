@@ -25,4 +25,9 @@
 ## 目录
 
 - [test](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/number.ipynb)
+- 隐式类型转换
+- 闭包的运用
+- 函数科利华
+- 如何理解万物皆对象？
+- 并发
 
