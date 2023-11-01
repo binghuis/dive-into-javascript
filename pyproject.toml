@@ -1,6 +1,6 @@
 [project]
 name = "dive_into_javascript"
-version = ""
+version = "0.0.1"
 description = ""
 authors = [
     {name = "songbinghui", email = "soongbinghui@gmail.com"},
