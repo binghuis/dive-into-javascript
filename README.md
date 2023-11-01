@@ -1,5 +1,6 @@
 # 写给 JavaScript 开发者的进阶课
 
+![](https://shield.deno.dev/deno/^1.3.7)
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-F37626)
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 
