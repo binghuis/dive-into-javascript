@@ -1,0 +1,18 @@
+[project]
+name = "dive_into_javascript"
+version = ""
+description = ""
+authors = [
+    {name = "songbinghui", email = "soongbinghui@gmail.com"},
+]
+dependencies = [
+    "jupyterlab>=4.0.7",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+jump = {shell = "cd ./src/dive_into_javascript/notebooks"}
+up = "jupyter lab"
+learn = {composite = ["jump", "up"]}
