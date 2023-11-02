@@ -1,7 +1,7 @@
 # 深入了解 JavaScript
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
-![jupyterlab](https://img.shields.io/badge/jupyterlab-F37626)
+![jupyterlab](https://img.shields.io/badge/jupyterlab-grey?logo=jupyter&labelColor=F37626&logoColor=fff)
 ![deno](https://shield.deno.dev/deno/^1.3.7)
 
 ## notebook 启动
