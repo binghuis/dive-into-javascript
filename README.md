@@ -1,4 +1,4 @@
-# 结合场景深入了解 JavaScript
+# 深入了解 JavaScript
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-F37626)
@@ -23,10 +23,11 @@
 
 ## 目录
 
-- [test](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/number.ipynb)
+- [数字](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/number.ipynb)
 - 隐式类型转换
-- 闭包的运用
-- 函数科利华
+- 闭包
+- 柯里化
 - 如何理解万物皆对象？
-- 并发
+- 作用域链
+- new
 
