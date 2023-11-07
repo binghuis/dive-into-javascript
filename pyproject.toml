@@ -13,6 +13,4 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [tool.pdm.scripts]
-jump = {shell = "cd ./src/dive_into_javascript/notebooks"}
 up = "jupyter lab"
-learn = {composite = ["jump", "up"]}
