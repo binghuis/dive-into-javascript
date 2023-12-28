@@ -7,8 +7,10 @@
 ## notebook 启动
 
 1. 安装 [deno](https://deno.com/blog/v1.37)
+   
    如果没速度就在控制台挂梯子。
-   如果执行 `deno upgrade` 的时候报错 `error: You do not have write permission to /opt/homebrew/bin/deno` 点 [这里](https://github.com/denoland/deno/issues/14829)
+
+   如果执行 `deno upgrade` 的时候报 `error: You do not have write permission to /opt/homebrew/bin/deno` 点 [这里](https://github.com/denoland/deno/issues/14829)
    
 2. 安装 `deno jupyter`
 
@@ -30,8 +32,8 @@
 - [Promise](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/promise.ipynb)
 - 隐式类型转换
 - 闭包
-- 柯里化
-- 如何理解万物皆对象？
+- JS 函数式编程与函数柯里化
+- 如何理解万物皆对象
 - 作用域链
 - new
 
