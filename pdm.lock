@@ -4,7 +4,7 @@
 [metadata]
 groups = ["default"]
 strategy = ["cross_platform"]
-lock_version = "4.4"
+lock_version = "4.4.1"
 content_hash = "sha256:50df1414a23a1525704f7a71782d51e099eaffbef097c548700e33ab1e339d67"
 
 [[package]]
@@ -652,7 +652,7 @@ files = [
 
 [[package]]
 name = "jupyterlab"
-version = "4.0.7"
+version = "4.0.9"
 requires_python = ">=3.8"
 summary = "JupyterLab computational environment"
 dependencies = [
@@ -670,8 +670,8 @@ dependencies = [
     "traitlets",
 ]
 files = [
-    {file = "jupyterlab-4.0.7-py3-none-any.whl", hash = "sha256:08683045117cc495531fdb39c22ababb9aaac6977a45e67cfad20046564c9c7c"},
-    {file = "jupyterlab-4.0.7.tar.gz", hash = "sha256:48792efd9f962b2bcda1f87d72168ff122c288b1d97d32109e4a11b33dc862be"},
+    {file = "jupyterlab-4.0.9-py3-none-any.whl", hash = "sha256:9f6f8e36d543fdbcc3df961a1d6a3f524b4a4001be0327a398f68fa4e534107c"},
+    {file = "jupyterlab-4.0.9.tar.gz", hash = "sha256:9ebada41d52651f623c0c9f069ddb8a21d6848e4c887d8e5ddc0613166ed5c0b"},
 ]
 
 [[package]]
