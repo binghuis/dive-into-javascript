@@ -29,11 +29,16 @@
 
 ## 目录
 
-- [Promise](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/promise.ipynb)
+- promise
 - 隐式类型转换
 - 闭包
 - JS 函数式编程与函数柯里化
 - 如何理解万物皆对象
 - 作用域链
 - new
-
+- EventLoop
+- 任务与微任务
+- 执行上下文
+- this
+- 作用域链
+- [运行时（runtime）& 解释器](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/runtime.ipynb)
