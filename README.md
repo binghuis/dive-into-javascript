@@ -41,4 +41,5 @@
 - 执行上下文
 - this
 - 作用域链
-- [运行时（runtime）& 解释器](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/runtime.ipynb)
+- 运行时（runtime）& 解释器
+- [柯里化](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/currying.ipynb)
