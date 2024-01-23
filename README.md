@@ -4,6 +4,16 @@
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-grey?logo=jupyter&labelColor=F37626&logoColor=fff)
 ![deno](https://shield.deno.dev/deno/^1.3.7)
 
+## V8 引擎调试
+
+[V8 Source](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
+
+[AST Explore](https://astexplorer.net/)
+
+1. 使用 [`jsvu`](https://github.com/GoogleChromeLabs/jsvu) 安装 V8 debug。
+
+2. 执行 `v8-debug -v` 测试安装结果。
+
 ## notebook 启动
 
 1. 安装 [deno](https://deno.com/blog/v1.37)
@@ -29,8 +39,10 @@
 
 ## 目录
 
-- 执行上下文 & 执行栈
-- 词法环境 & 作用域 & 作用域链
+- JS 代码是如何在浏览器里运行的？
+- 运行时（runtime）串联
+- 执行上下文 & 执行栈 & 词法环境 & 作用域 & 作用域链
+- EventLoop & 任务与微任务
 - 闭包 & 尾递归调用
 - [声明提升](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/var.ipynb)
 - [柯里化](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/currying.ipynb)
@@ -38,5 +50,3 @@
 - 数据类型 & 隐式类型转换
 - 何为万物皆对象
 - new & this
-- EventLoop & 任务与微任务
-- 运行时（runtime）& 解释器
