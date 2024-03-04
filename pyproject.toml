@@ -13,4 +13,4 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [tool.pdm.scripts]
-up = "jupyter lab"
+dev = "jupyter lab"
