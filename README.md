@@ -39,9 +39,10 @@
 
 ## 目录
 
-- JS 代码是如何在浏览器里运行的？
-- 运行时（runtime）串联
+- V8 引擎是如何处理 JS 代码的
+- 运行时（runtime）
 - 执行上下文 & 执行栈 & 词法环境 & 作用域 & 作用域链
+- new & this
 - EventLoop & 任务与微任务
 - 闭包 & 尾递归调用
 - [声明提升](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/var.ipynb)
@@ -49,4 +50,5 @@
 - promise & async / await
 - 数据类型 & 隐式类型转换
 - 何为万物皆对象
-- new & this
+
+箭头函数不创建函数上下文

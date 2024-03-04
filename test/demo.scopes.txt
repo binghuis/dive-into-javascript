@@ -1,0 +1,48 @@
+Inner function scope:
+function foo () { // (0x132043660) (67, 117)
+  // NormalFunction
+  // 2 heap slots
+  // local vars:
+  LET b_foo;  // (0x132045c48) never assigned
+}
+Inner function scope:
+function bar () { // (0x132043850) (131, 173)
+  // NormalFunction
+  // 2 heap slots
+}
+Global scope:
+global { // (0x132043230) (0, 180)
+  // will be compiled
+  // NormalFunction
+  // 1 stack slots
+  // 4 heap slots
+  // temporary vars:
+  TEMPORARY .result;  // (0x132043b00) local[0]
+  // local vars:
+  LET b_let;  // (0x132043510) context[2]
+  VAR foo;  // (0x132043820) 
+  CONST c_const;  // (0x1320435d0) context[3], never assigned
+  VAR a_var;  // (0x132043450) 
+  VAR bar;  // (0x132043a10) 
+
+  function bar () { // (0x132043850) (131, 173)
+    // lazily parsed
+    // NormalFunction
+    // 2 heap slots
+  }
+
+  function foo () { // (0x132043660) (67, 117)
+    // lazily parsed
+    // NormalFunction
+    // 2 heap slots
+  }
+}
+Global scope:
+function foo () { // (0x132043420) (67, 117)
+  // will be compiled
+  // NormalFunction
+  // 1 stack slots
+  // local vars:
+  LET b_foo;  // (0x132043670) local[0], never assigned, hole initialization elided
+}
+b_foo
