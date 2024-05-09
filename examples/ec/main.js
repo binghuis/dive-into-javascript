@@ -1,10 +1,11 @@
-const a = 1;
+const songbinghui = 1;
 let b = 2;
 
 function first() {
   const c = 3;
-  let d = 4;
-  console.log("first");
+  let songbinghui = 4;
+
+  console.log("first", songbinghui);
   second();
 }
 
