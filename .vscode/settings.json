@@ -1,10 +1,8 @@
 {
-    "notebook.formatOnSave.enabled": true,
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml",
-        "editor.formatOnSave": true
-    },
-    "python.analysis.extraPaths": [
-        "./src/dive_into_javascript/notebooks"
-    ]
+  "notebook.formatOnSave.enabled": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true
+  },
+  "python.analysis.extraPaths": []
 }
