@@ -35,7 +35,7 @@
 
 5. jupyter 启动
 
-   `pdm up`
+   `pdm dev`
 
 ## 目录
 
@@ -52,3 +52,5 @@
 - 何为万物皆对象
 
 箭头函数不创建函数上下文
+
+[页面生命周期状态和事件概览](https://developer.chrome.com/docs/web-platform/page-lifecycle-api?hl=zh-cn)

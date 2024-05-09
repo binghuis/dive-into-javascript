@@ -2,15 +2,13 @@
 name = "dive_into_javascript"
 version = "0.0.1"
 description = ""
-authors = [
-    {name = "songbinghui", email = "soongbinghui@gmail.com"},
-]
+authors = [{ name = "songbinghui", email = "soongbinghui@gmail.com" }]
 dependencies = [
-    "jupyterlab>=4.0.7",
+    "jupyterlab>=4.2.0",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+license = { text = "MIT" }
 
 [tool.pdm.scripts]
 dev = "jupyter lab"
