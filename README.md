@@ -45,12 +45,9 @@
 - new & this
 - EventLoop & 任务与微任务
 - 闭包 & 尾递归调用
-- [声明提升](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/var.ipynb)
 - [柯里化](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/currying.ipynb)
 - promise & async / await
 - 数据类型 & 隐式类型转换
 - 何为万物皆对象
 
 箭头函数不创建函数上下文
-
-[页面生命周期状态和事件概览](https://developer.chrome.com/docs/web-platform/page-lifecycle-api?hl=zh-cn)
