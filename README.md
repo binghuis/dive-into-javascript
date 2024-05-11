@@ -4,23 +4,32 @@
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-grey?logo=jupyter&labelColor=F37626&logoColor=fff)
 ![deno](https://shield.deno.dev/deno/^1.3.7)
 
-## V8 引擎调试
+## V8 调试
 
-[V8 Source](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
+[V8 源码](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
 
-[AST Explore](https://astexplorer.net/)
+[AST 在线预览](https://astexplorer.net/)
 
-1. 使用 [`jsvu`](https://github.com/GoogleChromeLabs/jsvu) 安装 V8 debug。
+### 安装 V8 调试工具 d8
 
-2. 执行 `v8-debug -v` 测试安装结果。
+1. 使用 [`jsvu`](https://github.com/GoogleChromeLabs/jsvu) 安装 v8-debug。
+
+2. 配置 `~/.bashrc` 或 `~/.bash_profile` 文件，增加下面两行。
+
+```bash
+# --- 配置 D8 ---
+export PATH="${HOME}/.jsvu/bin:${PATH}"
+alias d8='v8-debug'
+# --- end ---
+```
+
+3. 执行 `d8 -v` 测试安装结果。
 
 ## notebook 启动
 
 1. 安装 [deno](https://deno.com/blog/v1.37)
 
-   如果没速度就在控制台挂梯子。
-
-   如果执行 `deno upgrade` 的时候报 `error: You do not have write permission to /opt/homebrew/bin/deno` 点 [这里](https://github.com/denoland/deno/issues/14829)
+   如果执行 `deno upgrade` 的时候报 `error: You do not have write permission to /opt/homebrew/bin/deno` 参考 [这里](https://github.com/denoland/deno/issues/14829)
 
 2. 安装 `deno jupyter`
 
