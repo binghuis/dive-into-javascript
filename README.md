@@ -37,12 +37,14 @@ alias d8='v8-debug'
 
    > 关于 Deno 对 Jupyter 的支持 [Deno 1.37: Modern JavaScript in Jupyter Notebooks](https://deno.com/blog/v1.37)
 
-3. 包管理工具 [pdm 安装](https://github.com/pdm-project/pdm)
-4. 依赖安装
+3. 校验安装是否成功 `deno jupyter --unstable`
+
+4. 包管理工具 [pdm 安装](https://github.com/pdm-project/pdm)
+5. 依赖安装
 
    `pdm install`
 
-5. jupyter 启动
+6. jupyter 启动
 
    `pdm dev`
 
