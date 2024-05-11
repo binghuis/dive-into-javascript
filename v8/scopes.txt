@@ -1,0 +1,51 @@
+Inner function scope:
+function foo () { // (0x14403d460) (97, 171)
+  // NormalFunction
+  // 2 heap slots
+  // local vars:
+  LET fooLocalLet;  // (0x144041248) never assigned
+}
+Inner function scope:
+function bar () { // (0x14403d650) (185, 277)
+  // NormalFunction
+  // 2 heap slots
+  // local vars:
+  VAR barLocalVar;  // (0x144041230) never assigned
+  CONST barLocalConst;  // (0x144041278) never assigned
+}
+Global scope:
+global { // (0x14403d030) (0, 286)
+  // will be compiled
+  // NormalFunction
+  // 1 stack slots
+  // 4 heap slots
+  // temporary vars:
+  TEMPORARY .result;  // (0x14403d900) local[0]
+  // local vars:
+  VAR globalVar;  // (0x14403d250) 
+  CONST globalConst;  // (0x14403d3d0) context[3], never assigned
+  LET globalLet;  // (0x14403d310) context[2]
+  VAR foo;  // (0x14403d620) 
+  VAR bar;  // (0x14403d810) 
+
+  function bar () { // (0x14403d650) (185, 277)
+    // lazily parsed
+    // NormalFunction
+    // 2 heap slots
+  }
+
+  function foo () { // (0x14403d460) (97, 171)
+    // lazily parsed
+    // NormalFunction
+    // 2 heap slots
+  }
+}
+Global scope:
+function foo () { // (0x14403d220) (97, 171)
+  // will be compiled
+  // NormalFunction
+  // 1 stack slots
+  // local vars:
+  LET fooLocalLet;  // (0x14403d470) local[0], never assigned, hole initialization elided
+}
+函数 foo 局部 let 变量
