@@ -4,26 +4,24 @@
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-grey?logo=jupyter&labelColor=F37626&logoColor=fff)
 ![deno](https://shield.deno.dev/deno/^1.3.7)
 
-## V8 调试
+## 目录
 
-[V8 源码](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
+### V8 是如何工作的
 
-[AST 在线预览](https://astexplorer.net/)
+- V8 执行流程概述
+- 执行上下文相关
+- 了解事件循环机制（EventLoop）
+- 详解 JS 代码执行过程
+- 闭包、作用域、箭头函数等与执行上下文的关系
+- this
 
-### 安装 V8 调试工具 d8
+### JS 特性相关
 
-1. 使用 [`jsvu`](https://github.com/GoogleChromeLabs/jsvu) 安装 v8-debug。
-
-2. 配置 `~/.bashrc` 或 `~/.bash_profile` 文件，增加下面两行。
-
-```bash
-# --- 配置 D8 ---
-export PATH="${HOME}/.jsvu/bin:${PATH}"
-alias d8='v8-debug'
-# --- end ---
-```
-
-3. 执行 `d8 -v` 测试安装结果。
+- [柯里化](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/currying.ipynb)
+- promise & async / await
+- 数据类型 & 隐式类型转换
+- 何为万物皆对象
+- new
 
 ## notebook 启动
 
@@ -48,17 +46,23 @@ alias d8='v8-debug'
 
    `pdm dev`
 
-## 目录
+## V8 调试
 
-- JS 代码是如何执行的
-- 执行上下文 & 调用栈
-- 词法环境 & 环境记录 & 作用域 & 作用域链
-- new & this
-- EventLoop & 任务与微任务
-- 闭包 & 尾递归调用
-- [柯里化](https://nbviewer.jupyter.org/github/binghuis/dive-into-javascript/blob/main/src/dive_into_javascript/notebooks/currying.ipynb)
-- promise & async / await
-- 数据类型 & 隐式类型转换
-- 何为万物皆对象
+[V8 源码](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
 
-箭头函数不创建函数上下文
+[AST 在线预览](https://astexplorer.net/)
+
+### 安装 V8 调试工具 d8
+
+1. 使用 [`jsvu`](https://github.com/GoogleChromeLabs/jsvu) 安装 v8-debug。
+
+2. 配置 `~/.bashrc` 或 `~/.bash_profile` 文件，增加下面两行。
+
+```bash
+# --- 配置 D8 ---
+export PATH="${HOME}/.jsvu/bin:${PATH}"
+alias d8='v8-debug'
+# --- end ---
+```
+
+3. 执行 `d8 -v` 测试安装结果。
