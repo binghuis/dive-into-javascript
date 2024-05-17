@@ -10,18 +10,21 @@
 
 ### V8 是如何工作的
 
-- [V8 执行流程概述](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
-- 执行上下文 与 ES6 规范中的词法环境
-- 事件循环机制（EventLoop）
-- 详解 JS 代码执行过程
-- 闭包、作用域、箭头函数等与执行上下文的关系
-- this
+文章涉及到的 JS 相关概念依据的是 [ES6 规范](https://262.ecma-international.org/6.0/)。
+
+1. [简述 V8 引擎对 JS 代码的处理流程](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
+2. [ES6 规范中的词法环境与作用域、闭包的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)
+3. 执行上下文、调用栈与提升
+4. JS 如何通过事件循环机制（EventLoop）实现异步执行
+5. 结合以上概念串联 JS 代码执行过程
+6. 箭头函数
+7. this
 
 ### JS 特性相关
 
-- [柯里化](./src/dive_into_javascript/notebooks/currying.ipynb)
+- [函数柯里化](./src/dive_into_javascript/notebooks/currying.ipynb)
 - promise & async / await
-- 数据类型 & 隐式类型转换
+- 隐式类型转换
 - 何为万物皆对象
 - new
 
@@ -67,6 +70,6 @@ alias d8='v8-debug'
 
 4. 使用 d8 生成阶段产物。
 
-- AST: `d8 --print-ast demo.js > ast.txt`
-- bytecode: `d8 --print-bytecode demo.js > bytecode.txt`
-- scope: `d8 --print-scopes demo.js > scopes.txt`
+- 抽象语法树: `d8 --print-ast demo.js > ast.txt`
+- 字节码: `d8 --print-bytecode demo.js > bytecode.txt`
+- 作用域: `d8 --print-scopes demo.js > scopes.txt`
