@@ -1,4 +1,6 @@
 {
-  "imports": {},
+  "imports": {
+    "acorn": "https://esm.sh/acorn@8.11.3"
+  },
   "deno.enable": true
 }

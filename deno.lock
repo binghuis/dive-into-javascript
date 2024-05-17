@@ -1,0 +1,7 @@
+{
+  "version": "3",
+  "remote": {
+    "https://esm.sh/acorn@8.11.3": "fed0e0bc8159356769d528a4928ec7d57cdf5dcc8c4340aa4053ac0e0262e847",
+    "https://esm.sh/v135/acorn@8.11.3/denonext/acorn.mjs": "4bbd9807b0344b668da891947367e36ee3b11af74f72cc1497c72c5c52fbf8b3"
+  }
+}
