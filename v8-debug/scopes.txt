@@ -1,0 +1,14 @@
+Global scope:
+global { // (0x12c844430) (0, 29)
+  // will be compiled
+  // NormalFunction
+  // 1 stack slots
+  // 3 heap slots
+  // temporary vars:
+  TEMPORARY .result;  // (0x12c8447d8) local[0]
+  // local vars:
+  CONST a;  // (0x12c844650) context[2], never assigned
+  // dynamic vars:
+  DYNAMIC_GLOBAL console;  // (0x12c8448a8) never assigned
+}
+1

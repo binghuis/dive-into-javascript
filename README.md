@@ -10,7 +10,7 @@
 
 ### V8 是如何工作的
 
-- V8 执行流程概述
+- [V8 执行流程概述](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
 - 执行上下文相关
 - 了解事件循环机制（EventLoop）
 - 详解 JS 代码执行过程
@@ -66,3 +66,7 @@ alias d8='v8-debug'
 ```
 
 3. 执行 `d8 -v` 测试安装结果。
+
+- AST: `d8 --print-ast demo.js > ast.txt`
+- bytecode: `d8 --print-bytecode demo.js > bytecode.txt`
+- scope: `d8 --print-scopes demo.js > scopes.txt`
