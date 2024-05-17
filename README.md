@@ -48,9 +48,7 @@
 
    `pdm dev`
 
-## V8 调试
-
-[V8 源码](https://source.chromium.org/chromium/chromium/src/+/main:v8/)
+## [V8](https://source.chromium.org/chromium/chromium/src/+/main:v8/) Debug
 
 ### 安装 V8 调试工具 d8
 
@@ -67,7 +65,7 @@ alias d8='v8-debug'
 
 3. 执行 `d8 -v` 测试安装结果。
 
-4. 使用 d8 生成 AST、字节码等产物。
+4. 使用 d8 生成阶段产物。
 
 - AST: `d8 --print-ast demo.js > ast.txt`
 - bytecode: `d8 --print-bytecode demo.js > bytecode.txt`
