@@ -11,8 +11,8 @@
 ### V8 是如何工作的
 
 - [V8 执行流程概述](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
-- 执行上下文相关
-- 了解事件循环机制（EventLoop）
+- 执行上下文 与 ES6 规范中的词法环境
+- 事件循环机制（EventLoop）
 - 详解 JS 代码执行过程
 - 闭包、作用域、箭头函数等与执行上下文的关系
 - this
