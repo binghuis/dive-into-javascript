@@ -28,7 +28,7 @@
 - 何为万物皆对象
 - new
 
-## notebook 启动
+## Jupyter Notebook 启动
 
 1. 安装 [deno](https://deno.com/blog/v1.37)
 
