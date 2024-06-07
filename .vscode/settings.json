@@ -4,5 +4,10 @@
     "editor.defaultFormatter": "redhat.vscode-yaml",
     "editor.formatOnSave": true
   },
-  "python.analysis.extraPaths": []
+  "python.analysis.extraPaths": [],
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "typescript": "bun",
+    "javascript": "bun"
+  }
 }
