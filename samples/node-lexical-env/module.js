@@ -1,5 +1,5 @@
-console.log(globalThis.a, global.a);
-console.log(globalThis.b, global.b);
-console.log(globalThis.c, global.c);
-console.log(globalThis.foo, global.foo);
-console.log(globalThis.d, global.d);
+console.log(globalThis.a);
+console.log(globalThis.b);
+console.log(globalThis.c);
+console.log(globalThis.foo);
+console.log(globalThis.d);

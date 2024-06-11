@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+  <head></head>
   <body>
     <script>
       var a = 1;
       let b = 2;
       const c = 3;
       function foo() {
-        console.log(4);
+        return 4;
       }
     </script>
-    <script src="./script.js"></script>
-    <script type="module" src="./module.js"></script>
+    <script type="module">
+      console.group(`module`);
+      console.log("var:", a);
+      console.log("let:", b);
+      console.log("const:", c);
+      console.log("function:", foo());
+      console.log("window.var:", window.a);
+      console.log("window.let:", window.b);
+      console.log("window.const:", window.c);
+      console.log("window.function:", window.foo());
+      console.groupEnd();
+      var e = 6;
+    </script>
+    <script>
+      console.group(`script`);
+      console.log("var:", a);
+      console.log("let:", b);
+      console.log("const:", c);
+      console.log("function:", foo());
+      console.log("window.var:", window.a);
+      console.log("window.let:", window.b);
+      console.log("window.const:", window.c);
+      console.log("window.function:", window.foo());
+      console.groupEnd();
+      var d = 5;
+    </script>
+    <script>
+      console.group("global");
+      console.log("script var:", d);
+      console.log("module var:", e);
+      console.groupEnd();
+    </script>
   </body>
 </html>
