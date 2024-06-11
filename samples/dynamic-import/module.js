@@ -1,4 +1,4 @@
-console.log("你好");
+console.log("模块执行");
 let a = {
   value: 1,
 };

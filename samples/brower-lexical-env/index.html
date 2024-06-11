@@ -3,6 +3,12 @@
   <head></head>
   <body>
     <script>
+      // script 标签里的代码属于全局环境。
+      // ES2020 后 globalThis 在不同环境都是全局环境的引用。
+      console.log(window === globalThis);
+    </script>
+    <script>
+      // var 声明的变量和函数会挂载到 window 上。
       var a = 1;
       let b = 2;
       const c = 3;
@@ -11,7 +17,7 @@
       }
     </script>
     <script type="module">
-      // ES 模块可以访问到全局环境
+      // ES 模块可以访问到全局环境。
       console.group(`module`);
       console.log("var:", a);
       console.log("let:", b);
@@ -25,21 +31,9 @@
       var e = 6;
     </script>
     <script>
-      console.group(`script`);
-      console.log("var:", a);
-      console.log("let:", b);
-      console.log("const:", c);
-      console.log("function:", foo());
-      console.log("window.var:", window.a);
-      console.log("window.let:", window.b);
-      console.log("window.const:", window.c);
-      console.log("window.function:", window.foo());
-      console.groupEnd();
-      var d = 5;
-    </script>
-    <script>
       console.group("global");
       console.log("script var:", d);
+      // 全局环境无法直接访问 ES 模块环境。
       console.log("module var:", e);
       console.groupEnd();
     </script>
