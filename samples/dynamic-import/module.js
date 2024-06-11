@@ -1,4 +1,6 @@
-console.log("module loaded");
-let value = 1;
+console.log("你好");
+let a = {
+  value: 1,
+};
 
-export { value };
+export { a };
