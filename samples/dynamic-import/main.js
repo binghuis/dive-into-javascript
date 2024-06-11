@@ -3,8 +3,8 @@ async function loadModuleA() {
   console.log(module.value);
 }
 
-console.log("首次加载 module");
+console.log("首次加载");
 await loadModuleA();
 
-console.log("再次加载 module");
+console.log("再次加载");
 await loadModuleA();

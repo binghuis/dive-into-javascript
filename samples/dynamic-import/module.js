@@ -1,2 +1,4 @@
 console.log("module loaded");
-export const value = "Hello from module";
+let value = 1;
+
+export { value };
