@@ -13,7 +13,7 @@
 文章涉及到的 JS 相关概念依据的是 [ES6 规范](https://262.ecma-international.org/6.0/)。
 
 1. [简述 V8 引擎对 JS 代码的处理流程](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
-2. [ES6 规范中的词法环境与作用域、闭包的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)
+2. [ES6 规范中的词法环境与闭包、作用域的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)
 3. [执行上下文、调用栈与提升](./src/dive_into_javascript/notebooks/ec.ipynb)
 4. JS 如何通过事件循环机制（EventLoop）实现异步执行
 5. 结合以上概念串联 JS 代码执行过程
