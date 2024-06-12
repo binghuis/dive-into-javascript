@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script>
+      function outer() {
+        var outerVar = "I am outside!";
+        return function inner() {
+          console.log(outerVar);
+          debugger;
+        };
+      }
+      const innerFunc = outer();
+      innerFunc();
+    </script>
+  </body>
+</html>
