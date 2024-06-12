@@ -15,10 +15,7 @@
 1. [简述 V8 引擎对 JS 代码的处理流程](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)
 2. [ES6 规范中的词法环境与闭包、作用域的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)
 3. [执行上下文、调用栈与提升](./src/dive_into_javascript/notebooks/ec.ipynb)
-4. JS 如何通过事件循环机制（EventLoop）实现异步执行
-5. 结合以上概念串联 JS 代码执行过程
-6. 箭头函数
-7. this
+4. [JS 如何通过事件循环机制（EventLoop）实现异步执行](./src/dive_into_javascript/notebooks/eventloop.ipynb)
 
 ### JS 特性相关
 
@@ -27,6 +24,8 @@
 - 隐式类型转换
 - 何为万物皆对象
 - new
+- 箭头函数
+- this
 
 ## Jupyter Notebook 启动
 
