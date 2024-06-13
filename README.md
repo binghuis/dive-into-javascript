@@ -17,15 +17,15 @@
 3. [执行上下文、调用栈与提升](./src/dive_into_javascript/notebooks/ec.ipynb)
 4. [JS 如何通过事件循环机制（EventLoop）实现异步执行](./src/dive_into_javascript/notebooks/eventloop.ipynb)
 
-### JS 概念深入
+<!-- ### JS 概念深入 -->
 
-- [函数柯里化](./src/dive_into_javascript/notebooks/currying.ipynb)
+<!-- - [函数柯里化](./src/dive_into_javascript/notebooks/currying.ipynb)
 - promise & async / await
 - 隐式类型转换
 - 何为万物皆对象
 - new
 - 箭头函数
-- this
+- this -->
 
 ## Jupyter Notebook 启动
 
