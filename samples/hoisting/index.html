@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body></body>
+  <script>
+    debugger;
+    const a = 1;
+    let b = 2;
+    var c = 3;
+    function foo() {
+      // 本地作用域
+      debugger;
+      var d = 4;
+      if (true) {
+        // 块作用域
+        debugger;
+        let e = 5;
+        var f = 6;
+      }
+    }
+    foo();
+  </script>
+</html>
