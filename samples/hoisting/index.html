@@ -12,6 +12,18 @@
       debugger;
       var d = 4;
       if (true) {
+        try {
+          // 暂时性死区
+          console.log(e);
+        } catch (error) {
+          console.log(error);
+        }
+        try {
+          // 没有定义
+          console.log(g);
+        } catch (error) {
+          console.log(error);
+        }
         // 块作用域
         debugger;
         let e = 5;
