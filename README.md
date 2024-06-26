@@ -13,9 +13,30 @@
 文章涉及到的 JS 相关概念依据的是 [ES6 规范](https://262.ecma-international.org/6.0/)。
 
 1. [简述 V8 引擎对 JS 代码的处理流程](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)。
+
+   - V8 对 JS 代码的处理过程。
+   - 词法分析和语法分析的产物。
+   - 预解析和延迟解析。
+   - JIT 即时编译技术。
+
 2. [ES6 规范中的词法环境与闭包、作用域的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)。
+
+   - 词法环境结构的概念。
+   - 闭包的概念。
+   - 作用域、作用域链和词法环境的关系。
+
 3. [创建阶段：执行上下文与提升](./src/dive_into_javascript/notebooks/ec.ipynb)。
+
+   - 执行上下文的概念。
+   - 执行上下文中词法环境、变量环境组件和词法环境结构的区别。
+   - 何为提升。
+   - 词法作用域的实现原理。
+
 4. [执行阶段：深入事件循环机制（EventLoop）](./src/dive_into_javascript/notebooks/eventloop.ipynb)。
+
+   - 事件循环机制。
+   - JS 中堆和栈的作用。
+   - WebAPI 与宿主环境。
 
 <!-- ### JS 概念深入 -->
 
