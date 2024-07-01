@@ -3,6 +3,7 @@
   <head></head>
   <body></body>
   <script>
+    "use strict";
     debugger;
     const a = 1;
     let b = 2;
@@ -12,6 +13,9 @@
       debugger;
       var d = 4;
       if (true) {
+        function bar() {
+          console.log("bar");
+        }
         try {
           // 暂时性死区
           console.log(e);
@@ -28,6 +32,11 @@
         debugger;
         let e = 5;
         var f = 6;
+      }
+      try {
+        bar();
+      } catch (error) {
+        console.log(error);
       }
     }
     foo();
