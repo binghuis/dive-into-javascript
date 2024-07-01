@@ -18,7 +18,7 @@
 
 3. [创建阶段：执行上下文与提升](./src/dive_into_javascript/notebooks/ec.ipynb)。
 
-4. [执行阶段：深入事件循环机制（EventLoop）](./src/dive_into_javascript/notebooks/eventloop.ipynb)。
+4. 执行阶段：深入事件循环机制（EventLoop）。
 
 <!-- ### JS 概念深入 -->
 
