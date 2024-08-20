@@ -4,25 +4,23 @@
 ![jupyterlab](https://img.shields.io/badge/jupyterlab-grey?logo=jupyter&labelColor=F37626&logoColor=fff)
 ![deno](https://shield.deno.dev/deno/^1.3.7)
 
-去 [nbviewer](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/) 阅读。
-
 ## 目录
 
 ### V8 是如何工作的
 
 文章涉及到的 JS 相关概念依据的是 [ES6 规范](https://262.ecma-international.org/6.0/)。
 
-1. [简述 V8 引擎对 JS 代码的处理流程](./src/dive_into_javascript/notebooks/v8_pipeline.ipynb)。
+1. [简述 V8 引擎对 JS 代码的处理流程](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/v8_pipeline.ipynb)。
 
-2. [ES6 规范中的词法环境与闭包、作用域的关系](./src/dive_into_javascript/notebooks/lexical_env.ipynb)。
+2. [ES6 规范中的词法环境与闭包、作用域的关系](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/lexical_env.ipynb)。
 
-3. [创建阶段：执行上下文与提升](./src/dive_into_javascript/notebooks/ec.ipynb)。
+3. [创建阶段：执行上下文与提升](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/ec.ipynb)。
 
 4. 执行阶段：深入事件循环机制（EventLoop）。
 
 <!-- ### JS 概念深入 -->
 
-<!-- - [函数柯里化](./src/dive_into_javascript/notebooks/currying.ipynb)
+<!-- - [函数柯里化](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/currying.ipynb)
 - promise & async / await
 - 隐式类型转换
 - 何为万物皆对象
