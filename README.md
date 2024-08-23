@@ -16,7 +16,7 @@
 
 3. [创建阶段：执行上下文与提升](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/ec.ipynb)。
 
-4. [执行阶段：深入事件循环机制（EventLoop）](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/eventloop.ipynb)
+4. [执行阶段：深入事件循环机制（EventLoop）](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/eventloop.ipynb)。
 
 ### JS 概念深入
 
