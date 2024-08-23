@@ -46,14 +46,6 @@
 
       root.appendChild(document.createElement("div"));
 
-      requestIdleCallback(() => {
-        console.log("requestIdleCallback");
-      });
-
-      requestAnimationFrame(() => {
-        console.log("requestAnimationFrame");
-      });
-
       console.log("end");
     }
     main();

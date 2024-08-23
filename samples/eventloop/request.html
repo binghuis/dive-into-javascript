@@ -30,6 +30,9 @@
         console.log("xhr.onload");
       };
       xhr.send();
+      Promise.resolve().then(() => {
+        console.log("promise");
+      });
     }
     main();
   </script>

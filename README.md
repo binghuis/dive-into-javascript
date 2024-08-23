@@ -18,15 +18,10 @@
 
 4. [执行阶段：深入事件循环机制（EventLoop）](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/eventloop.ipynb)
 
-<!-- ### JS 概念深入 -->
+### JS 概念深入
 
-<!-- - [函数柯里化](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/currying.ipynb)
-- promise & async / await
-- 隐式类型转换
-- 何为万物皆对象
-- new
-- 箭头函数
-- this -->
+- 探究 requestAnimationFrame 和 requestIdleCallback 的执行机制
+- async/await 是如何实现的
 
 ## Jupyter Notebook 启动
 
