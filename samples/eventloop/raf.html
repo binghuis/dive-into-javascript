@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <script>
+      setTimeout(() => {
+        console.log("setTimeout");
+      });
+      queueMicrotask(() => {
+        console.log("queueMicrotask");
+      });
+      document.body.style.backgroundColor = "red";
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          console.log("requestAnimationFrame");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -7,28 +7,8 @@
   </head>
   <body>
     <div id="root"></div>
-    <button id="btn">click</button>
   </body>
   <script>
-    setTimeout(() => {
-      console.log("setTimeout");
-    });
-    document.getElementById("btn").addEventListener("click", () => {
-      console.log("click");
-    });
-    document.getElementById("btn").addEventListener("dblclick", () => {
-      console.log("dblclick");
-    });
-
-    const dblClickEvent = new MouseEvent("dblclick", {
-      bubbles: true,
-      cancelable: true,
-      view: window,
-    });
-
-    document.getElementById("btn").dispatchEvent(dblClickEvent);
-    document.getElementById("btn").click();
-
     async function main() {
       // // 网络请求的回调是微任务，但是受网络请求的延迟影响，实际执行顺序不可控
       // fetch(

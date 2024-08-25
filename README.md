@@ -16,12 +16,13 @@
 
 3. [创建阶段：执行上下文与提升](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/ec.ipynb)。
 
-4. [执行阶段：深入事件循环机制（EventLoop）](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/eventloop.ipynb)。
+4. [执行阶段：深入 Window 事件循环机制（Window EventLoop）](https://nbviewer.org/github/binghuis/dive-into-javascript/tree/main/src/dive_into_javascript/notebooks/eventloop.ipynb)。
 
 ### JS 概念深入
 
-- 探究 requestAnimationFrame 和 requestIdleCallback 的执行机制
-- async/await 是如何实现的
+- 探究 requestAnimationFrame 和 requestIdleCallback 的执行机制。
+- 了解 Worker EventLoop 和 Worklet Eventloop。
+- 了解 async/await 实现机制。
 
 ## Jupyter Notebook 启动
 
