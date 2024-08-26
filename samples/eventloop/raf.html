@@ -6,9 +6,11 @@
   </head>
   <body>
     <script>
+      console.log("script start");
+
       setTimeout(() => {
         console.log("setTimeout");
-      });
+      }, 10);
       queueMicrotask(() => {
         console.log("queueMicrotask");
       });
@@ -16,6 +18,17 @@
         // document.body.style.backgroundColor = "red";
         console.log("requestAnimationFrame");
       });
+      requestIdleCallback(
+        () => {
+          console.log("requestIdleCallback");
+        },
+        {
+          timeout: 10,
+        }
+      );
+      setTimeout(() => {
+        console.log("setTimeout2");
+      }, 10);
     </script>
   </body>
 </html>

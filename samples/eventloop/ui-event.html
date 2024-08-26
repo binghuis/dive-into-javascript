@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      id="app"
+      style="
+        height: 300px;
+        position: relative;
+        overflow-y: auto;
+        background-color: bisque;
+      "
+    >
+      <div style="height: 1000px">content</div>
+    </div>
+  </body>
+  <script>
+    // 尽管定时任务最先被放进任务队列，但是 UI 事件任务队列的优先级更高，所以 UI 事件会先执行。
+
+    setTimeout(() => {
+      console.log("setTimeout");
+    });
+
+    document.getElementById("app").addEventListener("mouseup", () => {
+      console.log("mouseup");
+    });
+    document.getElementById("app").addEventListener("keydown", () => {
+      console.log("keydown");
+    });
+    document.getElementById("app").addEventListener("click", () => {
+      console.log("click");
+    });
+
+    // 手动触发事件
+    document
+      .getElementById("app")
+      .dispatchEvent(new KeyboardEvent("keydown", { key: "s" }));
+    document.getElementById("app").dispatchEvent(new MouseEvent("mouseup"));
+
+    document.getElementById("app").click();
+  </script>
+</html>
