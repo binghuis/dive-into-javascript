@@ -12,11 +12,9 @@
       queueMicrotask(() => {
         console.log("queueMicrotask");
       });
-      document.body.style.backgroundColor = "red";
       requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          console.log("requestAnimationFrame");
-        });
+        // document.body.style.backgroundColor = "red";
+        console.log("requestAnimationFrame");
       });
     </script>
   </body>
