@@ -19,12 +19,12 @@
         console.log("requestAnimationFrame");
       });
       requestIdleCallback(
-        () => {
-          console.log("requestIdleCallback");
-        },
-        {
-          timeout: 10,
+        (deadline) => {
+          console.log(deadline.timeRemaining(), deadline.didTimeout);
         }
+        // {
+        //   timeout: 10,
+        // }
       );
       setTimeout(() => {
         console.log("setTimeout2");
